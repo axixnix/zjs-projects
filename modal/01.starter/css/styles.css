@@ -112,3 +112,8 @@ h2 {
 .modal__content > * + * {
   margin-top: 0.75em;
 }
+
+.modal-is-open .modal-container {
+  opacity: 1;
+  z-index: 1;
+}
